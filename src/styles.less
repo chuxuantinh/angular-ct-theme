@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+    background-color: var(--backgroun-color);
+    --backgroun-color: #eff0f5;
+    --container-background: #dfe2ec;
+    --main-text: #394360;
+    --links: #3c3c3c;
+    --slider-off-backround: #c0c4d8;
+    --slider: #8289b0;
+}
+
+html[data-theme='dark'] {
+    --backgroun-color: #454c6e;
+    --container-background: #272b3f;
+    --main-text: #eff0f5;
+    --links: #c0c4d8;
+    --slider-off-backround: #8289b0;
+    --slider: #3b415e;
+}
+html.color-theme-in-transition,
+html.color-theme-in-transition *,
+html.color-theme-in-transition *:before,
+html.color-theme-in-transition *:after {
+transition: all 1000ms !important;
+transition-delay: 0 !important;
+}
